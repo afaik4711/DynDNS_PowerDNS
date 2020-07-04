@@ -8,14 +8,14 @@ To add records, please follow the PDNS documentation and choose a low TTL (e.g. 
 Add another user to the databae with only Update rights to table "records"
 This user has to be put to the connect.php.
 Also, add your DynDNS Hosts to connect.php to ensure only these records are updated.
-You do not want records like ns.<youdomain> or www.<youdomain> updatet.
+You do not want records like ns.<youdomain> or www.<youdomain> updated.
 
 In your router, use following URL and settings:
 UpdateURL (eg FritzBox Custom / Benutzerdefiniert):
 https://<yourdomain>/updatedns.php?hostname=<DOMAIN>&ip=<ipaddr>&ip6=<ip6addr>
 Domain: dyndns1.<yourdomain>
-User: username
-Pass: password
+User: 
+Pass: 
 
-I use apache's basic auth for authentication.
+I use apache's basic auth for authentication, fill those ceedentials ins the user / pass field of your client
 
