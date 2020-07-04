@@ -14,8 +14,8 @@ In your router, use following URL and settings:
 UpdateURL (eg FritzBox Custom / Benutzerdefiniert):
 https://<yourdomain>/updatedns.php?hostname=<DOMAIN>&ip=<ipaddr>&ip6=<ip6addr>
 Domain: dyndns1.<yourdomain>
-User: username*
-Pass: password*
+User: username
+Pass: password
 
-* I use apache's basic auth for authentication.
+I use apache's basic auth for authentication.
 
